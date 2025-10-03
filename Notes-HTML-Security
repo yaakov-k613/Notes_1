@@ -1,0 +1,7 @@
+rel="noopener" is used when a link opens in a new tab (target="_blank").
+
+It stops the new tab from having access to your original page through JavaScript.
+Without it, the new tab could change or hijack the page that opened it (a security risk called tabnabbing).
+
+👉 In short: noopener = protects your original page from being controlled by the new tab.
+----
