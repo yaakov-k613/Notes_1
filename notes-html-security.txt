@@ -5,3 +5,4 @@ Without it, the new tab could change or hijack the page that opened it (a securi
 
 👉 In short: noopener = protects your original page from being controlled by the new tab.
 ----
+

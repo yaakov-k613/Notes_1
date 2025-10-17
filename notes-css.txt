@@ -1,0 +1,16 @@
+🎨CSS Boilerplate:
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: border-box; /* Make every element and its ::before/::after pseudo-elements use the border-box box model so declared width/height include padding & border. prevents layout surprises when adding padding/border */
+}
+
+/* Optional alternative (safer with third‑party styles): */
+   html { box-sizing: border-box; }
+   *, *::before, *::after { box-sizing: inherit; }
+   This lets descendants inherit the box-sizing value from html.
+
+----------
