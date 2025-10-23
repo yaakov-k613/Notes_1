@@ -6,6 +6,9 @@
 }
 *, *::before, *::after {
   box-sizing: border-box; /* Make every element and its ::before/::after pseudo-elements use the border-box box model so declared width/height include padding & border. prevents layout surprises when adding padding/border */
+  margin: 0;
+  height: 0;
+  padding: 0;
 }
 
 /* Optional alternative (safer with third‑party styles): */

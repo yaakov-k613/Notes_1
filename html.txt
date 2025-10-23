@@ -1,0 +1,40 @@
+/* ===============================
+   🌐 BASIC CSS FOUNDATION
+   This section makes your website
+   look consistent across browsers.
+   =============================== */
+
+/* The html element is the root of the page */
+html {
+  box-sizing: border-box; 
+  /* This makes width and height include
+     content + padding + border.
+     It keeps layouts easier to control. */
+
+  height: 100%;
+  /* Makes the html element take up the full height of the screen. */
+
+  font-family: Arial, sans-serif;
+  /* Sets a clean, modern font for the whole site. */
+}
+
+/* The asterisk (*) means “apply to ALL elements.”
+   The ::before and ::after parts make sure this also applies
+   to any extra design pieces created with CSS. */
+*, *::before, *::after {
+  box-sizing: inherit; 
+  /* Makes all elements use the same box-sizing rule as html,
+     so everything stays consistent. */
+
+  margin: 0; 
+  /* Removes the default space outside elements
+     that browsers add automatically. */
+
+  padding: 0;
+  /* Removes the default space inside elements. */
+}
+--------------------------------
+
+
+
+
